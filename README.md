@@ -25,7 +25,7 @@ Run `ngs/scripts/do_align.sh` to get a variant table for each sample or referenc
 
 We will get two files `effects_df.csv` and `effects_df_no_filter.csv` for each sample after the calculation, corresponding to the mutation escape scores with or without the filter on RBD expression. The filtered data will be used for clustering to reduce noise, and the unfiltered data will be used for calculating preferences and visualizing the average DMS profiles for clusters to retain as many mutations as possible.
 
-(will be completed before publication)
+(We will maintain a detailed pipeline for upstream processing of DMS data in an independent repo.)
 
 ## Antibody clustering
 
